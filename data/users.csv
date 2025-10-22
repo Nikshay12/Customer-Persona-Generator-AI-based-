@@ -1,0 +1,6 @@
+user_id,age,gender,country,last_login,avg_session_time,features_used
+1,25,M,USA,2025-10-01,35,3
+2,30,F,UK,2025-10-03,25,2
+3,22,M,India,2025-10-02,40,4
+4,28,F,Canada,2025-10-01,20,1
+5,35,M,USA,2025-10-05,50,5
