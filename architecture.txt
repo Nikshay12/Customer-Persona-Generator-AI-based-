@@ -1,0 +1,30 @@
+┌────────────┐
+│ CSV Input  │
+│ (User Data)│
+└──────┬─────┘
+       │
+┌──────▼──────┐
+│ Analytics   │
+│ Preprocess  │
+└──────┬──────┘
+       │
+┌──────▼──────┐
+│ KMeans      │
+│ Clustering  │
+└──────┬──────┘
+       │
+┌──────▼──────┐
+│ Visualization│
+│ (Matplotlib) │
+└──────┬──────┘
+       │
+┌──────▼──────┐
+│ Streamlit UI│
+└─────────────┘
+
+Data Flow Summary:
+1. User uploads CSV file (demographic + behavioral data)
+2. Analytics module preprocesses and encodes data
+3. KMeans clusters users into personas
+4. Visualization module plots persona distribution
+5. Streamlit app provides interactive dashboard
